@@ -65,8 +65,8 @@ class WorkThread(threading.Thread):
 
 class ImageRecognition():
 	def __init__(self, modelpath):
-		self.det_model = os.path.join(modelpath, 'ch_PP-OCRv3_det_infer')
-		self.rec_model = os.path.join(modelpath, 'ch_PP-OCRv3_rec_infer')
+		self.det_model = os.path.join(modelpath, 'ch_PP-OCRv4_det_infer')
+		self.rec_model = os.path.join(modelpath, 'ch_PP-OCRv4_rec_infer')
 		self.cls_model = os.path.join(modelpath, 'ch_ppocr_mobile_v2.0_cls_infer')
 		self.label_file = os.path.join(modelpath, 'labels.txt')
 
